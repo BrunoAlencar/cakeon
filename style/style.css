@@ -1,0 +1,73 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+body{
+	background:#FF6699;
+}
+h1{
+	font-family: arial;
+	color:purple;
+}
+p{
+	text-align: justify;
+
+}
+#page{
+	width: 900px;
+	margin: 0 auto;
+}
+#header {
+	background-image:url('../cakeon/logo.jgp');
+	line-height: 80px;
+	text-align: center;
+	height: 80px;
+	background:#66ffcc;
+}
+
+#menu{
+	color:white;
+	background:black;
+	
+}
+
+#menu ul li a{
+	border-radius: 4em  1em 4em 1em;
+	color:white;
+	text-decoration: none;
+	width:223px;
+	float:left;
+	height:30px;
+	background:indigo;
+	border: 1px solid white;
+	line-height: 30px;
+	text-align: center;
+}
+
+#menu ul li a:hover{
+	background:green;
+	color:black;
+}
+
+#container{
+	text-align: center;
+	background:lightgreen;
+	float:left;
+	width:900px;
+	
+}
+#footer p{
+	line-height: 50px;
+	text-align: center;
+	background:pink;
+	clear: both;
+
+}
+.foto{
+	margin:20px;
+	border:1px solid black;
+	width:350px;
+	height:400px;
+}
+
